@@ -59,7 +59,8 @@ label frame_b4:
             show piven at right_page
             "Правильно! Ти зробив це, Фолькет. Ти можеш пройти."
 
-    # frame b5
+
+label frame_b5:
     show folket at left_page
 
     "Уф, це було складно. Дякую за виклик, Півень Шантеклер."

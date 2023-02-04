@@ -1,6 +1,4 @@
-﻿# TODO: Translation updated at 2023-02-04 08:08
-
-translate english strings:
+﻿translate english strings:
 
     # game/screens.rpy:252
     old "Back"
@@ -325,4 +323,8 @@ translate english strings:
     # game/screens.rpy:1424
     old "Menu"
     new "Menu"
+
+    # game/screens.rpy:719
+    old "Language"
+    new "Language"
 

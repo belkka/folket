@@ -2,8 +2,7 @@ label ending:
 
     # end
     scene bg paper
-    show folket at truecenter:
-        zoom 2.0
+    show folket at left_page
 
     """
     Фолькет прокинувся. Сонце сходило. Світ навкруги був цілком реальний.
@@ -11,5 +10,9 @@ label ending:
     Дивна книга лежала поруч.
     Але її обкладинка дещо змінилася...
     """
+
+    show end at truecenter:
+        zoom 0.3
+    pause
 
 return

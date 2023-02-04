@@ -131,7 +131,7 @@ define gui.namebox_tile = False
 ## Розташування діалогу відносно текстового поля. Це може бути ціла кількість
 ## пікселів відносно лівого чи верхнього краю текстового поля або 0,5 до центру.
 define gui.dialogue_xpos = 0.5
-define gui.dialogue_ypos = 0.5
+define gui.dialogue_ypos = 0.0
 
 ## Максимальна ширина тексту діалогу в пікселях.
 define gui.dialogue_width = 800

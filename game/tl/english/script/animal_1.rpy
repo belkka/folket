@@ -50,8 +50,19 @@ translate english first_animal_cad7ca62:
     Answer this riddle: "I speak without a mouth and hear without ears. I have no body, but I come to life with the wind. What am I?"
     '''
 
-# game/script/animal_1.rpy:50
-translate english frame_b4_44f4bb7a:
+# game/script/animal_1.rpy:44
+translate english frame_b4_e90f6b96:
+
+    # "Хм, це складно. Дай подумати:\n {a=jump:frame_b4_1}Це барабан?{/a}\n {a=jump:frame_b4_2}Це дзвіночок?{/a}\n {a=jump:frame_b4_3}Це труба?{/a}\n" (advance=False)
+    """
+    Hmm, that's difficult. Let me think:\n
+    {a=jump:frame_b4_1}Is this a drum?{/a}\n
+    {a=jump:frame_b4_2}Is this a bell?{/a}\n
+    {a=jump:frame_b4_3}Is it a trumpet?{/a}\n
+    """ (advance=False)
+
+# game/script/animal_1.rpy:54
+translate english frame_b4_1_44f4bb7a:
 
     # "Неправильно! Ти не кмітливий, менестреле, бо ти неправильно здогадався. Можеш спробувати ще раз."
     """
@@ -59,8 +70,8 @@ translate english frame_b4_44f4bb7a:
     You can try again.
     """
 
-# game/script/animal_1.rpy:55
-translate english frame_b4_192b8f26:
+# game/script/animal_1.rpy:60
+translate english frame_b4_2_192b8f26:
 
     # "Ха! Твої пісні можуть чарувати слух, але твій розум нудний, як струни арфи. Але я дам тобі ще один шанс."
     """
@@ -68,8 +79,8 @@ translate english frame_b4_192b8f26:
     But I'll give you one more chance.
     """
 
-# game/script/animal_1.rpy:60
-translate english frame_b4_2f2f1523:
+# game/script/animal_1.rpy:66
+translate english frame_b4_3_2f2f1523:
 
     # "Правильно! Ти зробив це, Фолькет. Ти можеш пройти."
     "Right! You did it, Folket. You can pass"
@@ -91,22 +102,3 @@ translate english frame_b5_d1fafc2d:
 
     # "Задоволення було тільки моїм, менестрель. До наступного разу!"
     "The pleasure was mine alone, minstrel. Until next time!"
-
-translate english strings:
-
-    # game/script/animal_1.rpy:44
-    old "Хм, це складно. Дай подумати:"
-    new "Hmm, that's difficult. Let me think:"
-
-    # game/script/animal_1.rpy:44
-    old "Це барабан?"
-    new "1) Is this a drum?"
-
-    # game/script/animal_1.rpy:44
-    old "Це дзвіночок?"
-    new "2) Is this a bell?"
-
-    # game/script/animal_1.rpy:44
-    old "Це труба?"
-    new "3) Is it a trumpet?"
-

@@ -41,23 +41,30 @@ label frame_b4:
     show folket at left_page
     hide piven
 
-    menu:
-        "Хм, це складно. Дай подумати:"
+    """
+    Хм, це складно. Дай подумати:\n
+    {a=jump:frame_b4_1}Це барабан?{/a}\n
+    {a=jump:frame_b4_2}Це дзвіночок?{/a}\n
+    {a=jump:frame_b4_3}Це труба?{/a}\n
+    """ (advance=False)
 
-        "Це барабан?":
-            hide folket
-            show piven at right_page
-            "Неправильно! Ти не кмітливий, менестреле, бо ти неправильно здогадався. Можеш спробувати ще раз."
-            jump frame_b4
-        "Це дзвіночок?":
-            hide folket
-            show piven at right_page
-            "Ха!  Твої пісні можуть чарувати слух, але твій розум нудний, як струни арфи. Але я дам тобі ще один шанс."
-            jump frame_b4
-        "Це труба?":
-            hide folket
-            show piven at right_page
-            "Правильно! Ти зробив це, Фолькет. Ти можеш пройти."
+    label frame_b4_1:
+        hide folket
+        show piven at right_page
+        "Неправильно! Ти не кмітливий, менестреле, бо ти неправильно здогадався. Можеш спробувати ще раз."
+        jump frame_b4
+        
+    label frame_b4_2:
+        hide folket
+        show piven at right_page
+        "Ха!  Твої пісні можуть чарувати слух, але твій розум нудний, як струни арфи. Але я дам тобі ще один шанс."
+        jump frame_b4
+
+    label frame_b4_3:
+        hide folket
+        show piven at right_page
+        "Правильно! Ти зробив це, Фолькет. Ти можеш пройти."
+        jump frame_b5
 
 
 label frame_b5:

@@ -715,6 +715,10 @@ screen preferences():
     use game_menu(_("Preferences"), scroll="viewport"):
 
         vbox:
+            hbox:
+                label _("Language")
+                textbutton "English" action Language("english")
+                textbutton "Ukrainian" action Language(None)
 
             hbox:
                 box_wrap True

@@ -64,7 +64,7 @@ define config.has_voice = True
 ## продовжуватиме відтворюватися в грі, доки його не буде зупинено або не буде
 ## відтворено інший файл.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/For Game - 267215__toivo161__melancholic-piano-ballad.wav"
 
 
 ## Переходи ####################################################################

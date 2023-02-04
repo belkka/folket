@@ -48,7 +48,7 @@ define build.name = "ggj2023"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## Щоб дозволити користувачеві відтворювати тестовий звук на звуковому або
@@ -66,6 +66,16 @@ define config.has_voice = True
 
 define config.main_menu_music = "audio/For Game - 267215__toivo161__melancholic-piano-ballad.wav"
 
+init python:
+    def text_sound(event, interact=True, **kwargs):
+        if not interact:
+            return
+        if event == "show":
+            renpy.sound.play("audio/387926__rylandbrooks__pencil-drawing-on-paper.mp3")
+        elif event == "slow_done":
+            renpy.sound.stop()
+
+define config.all_character_callbacks = [text_sound]
 
 ## Переходи ####################################################################
 ##

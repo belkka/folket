@@ -14,16 +14,16 @@ translate english boss_3174d497:
 translate english boss_b48ab736:
 
     # hryfon "Грифон з цікавістю подивився на Фолькета й сказав: \"Я шукаю сенс життя.\""
-    hryfon "The gryphon looked at Folket curiously and said: \"I am looking for the meaning of life.\""
+    hryfon "The griffin looked at Folket curiously and said: \"I am looking for the meaning of life.\""
 
 # game/script/animal_5_boss.rpy:50
 translate english frame_f4_892f9a06:
 
     # player "Хмм, дайно мені трохи часу. \n {a=jump:frame_f4_1}1)Можливо це балада?{/a} \n {a=jump:frame_f4_2}2)Стривай, це жарт?{/a} \n" (advance=False)
     player """
-    Хмм, дайно мені трохи часу. \n
-    {a=jump:frame_f4_1}1)Можливо це балада?{/a} \n
-    {a=jump:frame_f4_2}2)Стривай, це жарт?{/a} \n
+    Hmm, give me some time: \n
+    {a=jump:frame_f4_1}1)Maybe this is a ballad?{/a} \n
+    {a=jump:frame_f4_2}2)Wait, is this a joke?{/a} \n
     """ (advance=False)
 
 

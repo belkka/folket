@@ -1,13 +1,12 @@
+image text_bg = Solid("#eeec", xsize=900, ysize=400, align=(0.5, 0.5))
+
 label intro:
 
-    # frame a0
-    scene bg paper
-    show treveller near fire:
-        align (0.2, 0.0)
-        zoom 0.7
-    show folket:
-        align (0.5, 0.0)
-        zoom 0.7
+    scene bg campfire
+    with dissolve
+
+    pause 1.0
+    show text_bg with dissolve
 
     """
     Ця історія про менестреля Фолькета з Марселю, який вирушив у подорож по звивистій дорозі з Авіньйона в Тулузу. Коли сонце майже сіло, він втомився і вирішив зупинитися на ніч.
@@ -15,11 +14,5 @@ label intro:
     Фолькет розклав багаття, щоб зігрітися. З собою в нього була одна дивна старовинна книга. Читаючи її,  він провалився в сон...
     """
 
-
-    # frame a1
-    scene bg paper
-    show old-book at truecenter
-    with fade
-    pause 1.0
 
 return

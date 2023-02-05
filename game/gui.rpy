@@ -81,8 +81,9 @@ define gui.label_text_size = 36
 ## Розмір тексту на екрані сповіщень.
 define gui.notify_text_size = 24
 
-## Розмір назви гри.
 define gui.title_text_size = 75
+define gui.title_text_color = "#fff"
+define gui.version_text_color = "#fff"
 
 
 ## Головне та ігрове меню ######################################################

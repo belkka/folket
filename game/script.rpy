@@ -1,16 +1,21 @@
 ﻿# У цьому файлі міститься сценарій гри.
 
-define character.player = Character(
+define character.side = Character(
     None,
-    window_xpos=0.49,
+    window_ypos=0.2,
+    window_yalign=0.0,
+    window_xsize=420,
+    window_ysize=300,
+)
+define character.player = Character(
+    None, kind=character.side,
+    window_xpos=0.499,
     window_xanchor=1.0,
-    window_xsize=400,
 )
 define character.animal = Character(
-    None,
-    window_xpos=0.51,
+    None, kind=character.side,
+    window_xpos=0.501,
     window_xanchor=0.0,
-    window_xsize=400,
 )
 
 # Гра починається тут.

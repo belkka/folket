@@ -15,7 +15,7 @@ label start:
 
     call fourth_animal
 
-    # TODO
+    call boss
 
     call ending
 

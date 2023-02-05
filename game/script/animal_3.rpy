@@ -62,5 +62,9 @@ label frame_d5:
 label frame_d6:
     vovchycya "І з цими словами вовчиця відступила вбік, дозволяючи менестрелю продовжити свою подорож до замку вдалині."
 
+    scene cover 3 vovchycya
+    with fade
+    pause game.transition_pause 
+
 
 return

@@ -59,5 +59,8 @@ label frame_c5:
 label frame_c6:
     olen "Але будьте обережний, дорога попереду сповнена небезпек і інших загадок."
 
+    scene cover 2 olen
+    with fade
+    pause game.transition_pause 
 
 return

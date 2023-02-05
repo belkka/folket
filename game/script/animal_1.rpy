@@ -78,4 +78,8 @@ label frame_b5:
     Задоволення було тільки моїм, менестрель. До наступного разу!
     """
 
+    scene cover 1 piven
+    with fade
+    pause game.transition_pause 
+
 return

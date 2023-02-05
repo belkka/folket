@@ -21,7 +21,7 @@ image animal_name = ShowingSwitch(
 
 
 image player_name = ShowingSwitch(
-    "folket", Text(_("Фолькет{#label}"), color="#090"),
+    "folket", Text(_("Фолькет{#label}")),
     None, Null(),
 )
     

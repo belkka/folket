@@ -13,6 +13,8 @@ label start:
 
     call third_animal
 
+    call fourth_animal
+
     # TODO
 
     call ending

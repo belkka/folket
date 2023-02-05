@@ -1,7 +1,7 @@
 label first_animal:
 
     # frame b1
-    scene bg tale
+    call scene_tale
     show folket at left_page
     with fade
 

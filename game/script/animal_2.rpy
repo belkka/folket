@@ -4,7 +4,7 @@ define character.olen = Character(None)
 label second_animal:
 
     # frame c1
-    scene bg tale
+    call scene_tale
     show folket at left_page
     with fade
     """

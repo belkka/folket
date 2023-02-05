@@ -4,7 +4,7 @@ define character.vovchycya = Character(None)
 label third_animal:
 
     # Frame - D1
-    scene bg tale
+    call scene_tale
     show folket at left_page
     with fade
     """

@@ -1,4 +1,4 @@
-define character.vovchycya = Character(None)
+define character.vovchycya = Character(None, kind=character.animal)
 
 
 label third_animal:

@@ -1,4 +1,4 @@
-define character.hryfon = Character(None)
+define character.hryfon = Character(None, kind=character.animal)
 
 
 label boss:

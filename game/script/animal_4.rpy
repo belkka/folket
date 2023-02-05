@@ -1,4 +1,4 @@
-define character.zayec = Character(None)
+define character.zayec = Character(None, kind=character.animal)
 
 
 label fourth_animal:

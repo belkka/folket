@@ -1,4 +1,4 @@
-define character.olen = Character(None)
+define character.olen = Character(None, kind=character.animal)
 
 
 label second_animal:

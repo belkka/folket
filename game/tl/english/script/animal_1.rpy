@@ -51,14 +51,14 @@ translate english first_animal_cad7ca62:
     '''
 
 # game/script/animal_1.rpy:44
-translate english frame_b4_e90f6b96:
+translate english frame_b4_aac64269:
 
-    # "Хм, це складно. Дай подумати:\n {a=jump:frame_b4_1}Це барабан?{/a}\n {a=jump:frame_b4_2}Це дзвіночок?{/a}\n {a=jump:frame_b4_3}Це труба?{/a}\n" (advance=False)
+    # "Хм, це складно. Дай подумати:\n {a=jump:frame_b4_1}1)Це барабан?{/a} \n {a=jump:frame_b4_2}2)Це дзвіночок?{/a} \n {a=jump:frame_b4_3}3)Це труба?{/a} \n" (advance=False)
     """
     Hmm, that's difficult. Let me think:\n
-    {a=jump:frame_b4_1}Is this a drum?{/a}\n
-    {a=jump:frame_b4_2}Is this a bell?{/a}\n
-    {a=jump:frame_b4_3}Is it a trumpet?{/a}\n
+    {a=jump:frame_b4_1}1)Is this a drum?{/a}\n
+    {a=jump:frame_b4_2}2)Is this a bell?{/a}\n
+    {a=jump:frame_b4_3}3)Is it a trumpet?{/a}\n
     """ (advance=False)
 
 # game/script/animal_1.rpy:54

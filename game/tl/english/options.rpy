@@ -1,6 +1,6 @@
 ﻿translate english strings:
 
-    # game/options.rpy:16
-    old "ggj2023"
-    new "ggj2023"
+    # game/options.rpy:15
+    old "The history of the life\nof Folket from Marseille"
+    new "The history of the life\nof Folket from Marseille"
 

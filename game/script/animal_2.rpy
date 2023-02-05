@@ -3,7 +3,6 @@ label second_animal:
     # frame c1
     scene bg tale
     show folket at left_page
-    show landscape at right_page
     with fade
 
     """
@@ -13,8 +12,6 @@ label second_animal:
     """
 
     # frame c2
-    hide folket
-    hide landscape
     show olen at right_page with moveinright
 
     """

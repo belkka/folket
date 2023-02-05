@@ -43,9 +43,9 @@ label frame_b4:
 
     """
     Хм, це складно. Дай подумати:\n
-    {a=jump:frame_b4_1}Це барабан?{/a}\n
-    {a=jump:frame_b4_2}Це дзвіночок?{/a}\n
-    {a=jump:frame_b4_3}Це труба?{/a}\n
+    {a=jump:frame_b4_1}1)Це барабан?{/a} \n
+    {a=jump:frame_b4_2}2)Це дзвіночок?{/a} \n
+    {a=jump:frame_b4_3}3)Це труба?{/a} \n
     """ (advance=False)
 
     label frame_b4_1:

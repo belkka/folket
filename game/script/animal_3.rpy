@@ -41,9 +41,9 @@ label third_animal:
 label frame_d5:
     player """
     Зажди, дай спробувати: \n
-    {a=jump:frame_d5_1}це маленький вовк?{/a} \n
-    {a=jump:frame_d5_2}це великий вовк?{/a} \n
-    {a=jump:frame_d5_3}це вогонь?{/a} \n
+    {a=jump:frame_d5_1}1)Це маленький вовк?{/a} \n
+    {a=jump:frame_d5_2}2)Це великий вовк?{/a} \n
+    {a=jump:frame_d5_3}3)Це вогонь?{/a} \n
     """ (advance=False)
 
     label frame_d5_1:

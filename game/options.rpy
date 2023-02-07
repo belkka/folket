@@ -65,15 +65,14 @@ define config.has_voice = False
 ## відтворюватиметься, коли плеєр перебуває в головному меню. Цей файл
 ## продовжуватиме відтворюватися в грі, доки його не буде зупинено або не буде
 ## відтворено інший файл.
-
-define config.main_menu_music = "audio/For Game - 267215__toivo161__melancholic-piano-ballad.wav"
+define config.main_menu_music = "audio/melancholic-piano-ballad.wav"
 
 init python:
     def text_sound(event, interact=True, **kwargs):
         if not interact:
             return
         if event == "show":
-            renpy.sound.play("audio/387926__rylandbrooks__pencil-drawing-on-paper.mp3")
+            renpy.sound.play("audio/pencil-drawing-on-paper.mp3")
         elif event == "slow_done":
             renpy.sound.stop()
 
@@ -225,3 +224,4 @@ init python:
 
 
 define game.transition_pause = 1.5
+

@@ -134,7 +134,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## тоді як будь-яке інше число означає кількість символів за секунду, які
 ## потрібно ввести.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 50
 
 
 ## Затримка автоматичного пересилання за умовчанням. Більші числа призводять до

@@ -161,7 +161,6 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
     adjust_spacing False
-    slow_cps 50
 
 ## Input screen ################################################################
 ##

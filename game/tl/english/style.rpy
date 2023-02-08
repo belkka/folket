@@ -7,3 +7,4 @@ translate english python:
 
 translate english style say_dialogue:
     line_spacing 20
+    line_overlap_split -20

@@ -14,7 +14,7 @@ translate english third_animal_20a252cd:
 translate english third_animal_3a9bb088:
 
     # player "Я Фолькет з Марселю, відомий менестрель. Шукаю кращої долі та пригод."
-    player "I am Folquet of Marseille, a famous minstrel. Looking for a better fate and adventure."
+    player "I am Folket of Marseille, a famous minstrel. Looking for a better fate and adventure."
 
 # game/script/animal_3.rpy:27
 translate english third_animal_c74aeaff:

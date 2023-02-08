@@ -22,4 +22,4 @@
 
     # game/script/transforms.rpy:23
     old "Фолькет{#label}"
-    new "Folquet"
+    new "Folket"

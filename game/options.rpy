@@ -1,4 +1,4 @@
-﻿## Цей файл містить параметри, які можна змінити, щоб налаштувати гру.
+## Цей файл містить параметри, які можна змінити, щоб налаштувати гру.
 ##
 ## Рядки, що починаються з двох позначок «#», є коментарями, і ви не повинні
 ## розкоментувати їх. Рядки, що починаються з одного знака «#», є закоментованим
@@ -31,8 +31,51 @@ define config.version = "0.7.1"
 ## Текст, який розміщується на екрані інформації про гру. Поставте текст між
 ## потрійними лапками, а між абзацами залиште порожній рядок.
 
-define gui.about = _p("""
-""")
+image telegram_icon:
+    "images/icons/telegram.svg"
+    fit "contain"
+
+image mail_icon:
+    "images/icons/mail.svg"
+    fit "contain"
+
+init python:
+    def telegram_link(tag, argument):
+        assert '/' not in argument
+        return [
+            (renpy.TEXT_TAG, "image=telegram_icon"),
+            (renpy.TEXT_TAG, f"a=https://t.me/{argument}"),
+            (renpy.TEXT_TEXT, argument),
+            (renpy.TEXT_TAG, "/a"),
+        ]
+    
+    def mail_link(tag, argument):
+        assert '@' in argument
+        return [
+            (renpy.TEXT_TAG, "image=mail_icon"),
+            (renpy.TEXT_TAG, f"a=mailto:{argument}"),
+            (renpy.TEXT_TEXT, argument),
+            (renpy.TEXT_TAG, "/a"),
+        ]
+
+    config.self_closing_custom_text_tags["telegram"] = telegram_link
+    config.self_closing_custom_text_tags["mail"] = mail_link
+
+define gui.about = """\
+Team:
+
+Heorhii Novikov - 2D artist 
+{mail=heorhi.novikov@gmail.com}, {telegram=lasosesom}
+
+Ira Sobchak - Game designer, 2D artist 
+{telegram=RinkaRiko}, {mail=ira.sobchak.ss@gmail.com}
+
+Michael Korabelskyi - Game-designer, writer
+{mail=densetup@gmail.com}, {telegram=Michael_Kharkov}
+
+Michael Ulianich - developer
+{a=https://belkka.itch.io}belkka.itch.io{/a}, {telegram=belkka}
+"""
 
 
 ## Коротка назва гри, яка використовується для виконуваних файлів і каталогів

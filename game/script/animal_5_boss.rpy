@@ -18,7 +18,7 @@ label boss:
 
 
     # Frame F1
-    show hryfon at right_page
+    show hryfon at right_page with moveinright
     player "Добрий сір, чи можу я запитати, чому ви такий сумний?"
     hryfon """
     Грифон з цікавістю подивився на Фолькета й сказав: \"Я шукаю сенс життя.\"

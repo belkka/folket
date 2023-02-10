@@ -13,7 +13,7 @@ label fourth_animal:
     """
 
     # Frame - E2
-    show zayec at right_page
+    show zayec at right_page with moveinright
     zayec '''
     Це був заєць, який бігав туди-сюди, а коли побачив менестреля, швидко заступив йому дорогу.
 

@@ -14,8 +14,7 @@ label third_animal:
 
 
     # Frame - D2
-    show vovchycya at right_page
-    with dissolve
+    show vovchycya at right_page with moveinright
     vovchycya "Хто ти та куди так поспішаєшь, йдучі через мій ліс?"
     player """
     Я Фолькет з Марселю, відомий менестрель.

@@ -16,8 +16,7 @@ label first_animal:
     Наближаючись до нього, його зустрів лютий на вигляд півень, на ім'я Шантеклер.
     """
 
-    show piven at right_page
-    with dissolve
+    show piven at right_page with moveinright
 
     piven "Півень був захисником замку і погрожував напасти, якщо він негайно не піде."
 

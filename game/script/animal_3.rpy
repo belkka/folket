@@ -3,7 +3,6 @@ define character.vovchycya = Character(None, kind=character.animal)
 
 label third_animal:
 
-    # Frame - D1
     call scene_tale
     show folket at left_page
     with fade
@@ -12,30 +11,25 @@ label third_animal:
     Дорогу йому заступила вовчиця, на ім'я Гризетта.
     """
 
-
-    # Frame - D2
     show vovchycya at right_page with moveinright
     vovchycya "Хто ти та куди так поспішаєшь, йдучі через мій ліс?"
+
     player """
     Я Фолькет з Марселю, відомий менестрель.
     Шукаю кращої долі та пригод.
     """
 
-
-    # Frame - D3
     vovchycya "Ну пригоди ти вже знайшов, мій любчику!"
+
     player """
     Я сповнений рішучісті пройти далі, шановна леді Гризетта!
     Слухаю вас уважно.
     """
 
-
-    # Frame - D4
     vovchycya '''
     Тримайся, менестрелю! У мене є для вас загадка.
     "Я завжди голодна, мене завжди треба нагодувати. Палець, якого я торкнуся, скоро почервоніє. Що я?"
     '''
-
 
 label frame_d5:
     player """
@@ -55,15 +49,11 @@ label frame_d5:
 
     label frame_d5_3:
         vovchycya "Бравоууу! Тобі це вдалося, Фолькет."
-        jump frame_d6
-
 
 label frame_d6:
     vovchycya "І з цими словами вовчиця відступила вбік, дозволяючи менестрелю продовжити свою подорож до замку вдалині."
 
-    scene cover 3 vovchycya
-    with fade
+    scene cover 3 vovchycya with fade
     pause game.transition_pause 
-
 
 return

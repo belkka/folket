@@ -3,11 +3,9 @@ define character.piven = Character(None, kind=character.animal)
 
 label first_animal:
 
-    # frame b1
     call scene_tale
     show folket at left_page
     with fade
-
     """
     Прийшовши до тями, Фолькет, опинився в дивному місці.
 
@@ -17,17 +15,12 @@ label first_animal:
     """
 
     show piven at right_page with moveinright
-
     piven "Півень був захисником замку і погрожував напасти, якщо він негайно не піде."
 
-
-    # frame b2
     piven "Шантеклер подивився на Фолкета гострим поглядом. — Стій, менестрелю, — сказав Шантеклер. — Чому ви прагнете до замку?"
 
     player "Я...я всього лише мандрівний менестрель, який шукає притулку на ніч. Я не хочу зла."
 
-
-    # frame b3
     piven """
     Дорога до замку небезпечна, і тільки розумні можуть пройти. Докажи свою кмітливість, менестрелю.
 
@@ -35,7 +28,6 @@ label first_animal:
     я кажу без рота і чую без вух. Я не маю тіла, але я оживаю з вітром.
     Що я таке?
     """
-
 
 label frame_b4:
     player """
@@ -48,15 +40,13 @@ label frame_b4:
     label frame_b4_1:
         piven "Неправильно! Ти не кмітливий, менестреле, бо ти неправильно здогадався. Можеш спробувати ще раз."
         jump frame_b4
-        
+
     label frame_b4_2:
         piven "Ха!  Твої пісні можуть чарувати слух, але твій розум нудний, як струни арфи. Але я дам тобі ще один шанс."
         jump frame_b4
 
     label frame_b4_3:
         piven "Правильно! Ти зробив це, Фолькет. Ти можеш пройти."
-        jump frame_b5
-
 
 label frame_b5:
     player "Уф, це було складно. Дякую за виклик, Півень Шантеклер."
@@ -67,8 +57,7 @@ label frame_b5:
     Задоволення було тільки моїм, менестрель. До наступного разу!
     """
 
-    scene cover 1 piven
-    with fade
+    scene cover 1 piven with fade
     pause game.transition_pause 
 
 return

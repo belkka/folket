@@ -29,8 +29,6 @@ label first_animal:
 
 
     # frame b3
-    hide folket
-
     piven """
     Дорога до замку небезпечна, і тільки розумні можуть пройти. Докажи свою кмітливість, менестрелю.
 
@@ -41,9 +39,6 @@ label first_animal:
 
 
 label frame_b4:
-    show folket at left_page
-    hide piven
-
     player """
     Хм, це складно. Дай подумати:\n
     {a=jump:frame_b4_1}1)Це барабан?{/a} \n
@@ -52,27 +47,19 @@ label frame_b4:
     """ (advance=False)
 
     label frame_b4_1:
-        hide folket
-        show piven at right_page
         piven "Неправильно! Ти не кмітливий, менестреле, бо ти неправильно здогадався. Можеш спробувати ще раз."
         jump frame_b4
         
     label frame_b4_2:
-        hide folket
-        show piven at right_page
         piven "Ха!  Твої пісні можуть чарувати слух, але твій розум нудний, як струни арфи. Але я дам тобі ще один шанс."
         jump frame_b4
 
     label frame_b4_3:
-        hide folket
-        show piven at right_page
         piven "Правильно! Ти зробив це, Фолькет. Ти можеш пройти."
         jump frame_b5
 
 
 label frame_b5:
-    show folket at left_page
-
     player "Уф, це було складно. Дякую за виклик, Півень Шантеклер."
 
     piven """

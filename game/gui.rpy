@@ -89,7 +89,11 @@ define gui.version_text_color = "#fff"
 ## Головне та ігрове меню ######################################################
 
 ## Зображення, які використовуються для головного та ігрового меню.
-define gui.main_menu_background = "gui/main_menu.png"
+default persistent.is_game_completed = False
+define gui.main_menu_background = ConditionSwitch(
+    "persistent.is_game_completed", "bg campfire book",
+    "True", "bg campfire",
+)
 define gui.game_menu_background = "gui/game_menu.png"
 
 

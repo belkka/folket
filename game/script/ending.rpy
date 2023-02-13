@@ -1,5 +1,7 @@
 label ending:
 
+    $ persistent.is_game_completed = True
+
     scene bg campfire book
     with fade
 

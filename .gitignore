@@ -27,5 +27,4 @@ log.txt
 errors.txt
 traceback.txt
 files.txt
-
-# End of https://www.toptal.com/developers/gitignore/api/renpy
+project.json
